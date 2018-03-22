@@ -293,7 +293,6 @@ class RandomTD(object):
     self._state = initial_state
     self._number_of_actions = number_of_actions
     self._step_size = step_size
-    self._step_size = step_size
     
   def get_values(self):
     return self._values
